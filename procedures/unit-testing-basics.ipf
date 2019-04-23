@@ -503,7 +503,7 @@ static Function/S getInfo(result)
 
 	endfor
 
-	if(numtype(callerIndex) != 0)
+	if(IsNaN(callerIndex))
 		return "Assertion failed in unknown location"
 	endif
 
